@@ -274,7 +274,7 @@ function create_config( )
     "Caption",
     "Payamresan"
     },
-    sudo_users = {},
+    sudo_users = {170172168},
     moderation = {data = 'data/moderation.json'},
     about_text = [[👑 Signal Bot 👑
 An advanced administration bot based on TG-CLI written in Lua
@@ -571,7 +571,7 @@ SuperGroup Commands:
 🔵 لیست ورود اعضا 🔴
 〰〰〰〰〰〰〰〰
 💥 شما میتوانید از / و ! و # استفاده کنید 💥
-💥 برای افزودن سازنده روبات به گروه استفاده کنند !invpouria صاحبان گروه میتونند از دستور 💥
+صاحبان گروه میتوانند در قبال هر گونه مشکل به ایدی @pedaret پی ام بدهند
 ]],
   }
   serialize_to_file(config, './data/config.lua')
